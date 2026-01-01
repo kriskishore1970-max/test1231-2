@@ -1,9 +1,6 @@
 pipeline {
-
   agent any
-
-  stgaes {
-
+  stages {
         stage ("checkOut") {
       steps {
         echo 'checkOut application'
